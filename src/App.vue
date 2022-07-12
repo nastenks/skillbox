@@ -1,6 +1,5 @@
 <template>
   <section class="catalog">
-    <!-- <ProductList :products="products"/> -->
     <ProductList />
 
     <ul class="catalog__pagination pagination">
@@ -53,17 +52,11 @@
 </template>
 
 <script>
-// import products from './data/products';
 import ProductList from './components/ProductList.vue';
 
 export default {
   name: 'App',
   components: { ProductList },
-  // data() {
-  //   return {
-  //     products,
-  //   };
-  // },
 };
 </script>
 
