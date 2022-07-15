@@ -5,16 +5,11 @@
 </template>
 
 <script>
-import products from '../data/products';
 import ProductItem from './ProductItem.vue';
 
 export default {
   name: 'ProductList',
+  props: ['products'],
   components: { ProductItem },
-  data() {
-    return {
-      products,
-    };
-  },
 };
 </script>
